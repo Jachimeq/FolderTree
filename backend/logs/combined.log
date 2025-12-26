@@ -1,0 +1,131 @@
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-25 21:38:48"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-25 21:38:49"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-25 21:38:49"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-25 21:38:49"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-25 21:38:49"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-25 21:38:49"}
+{"duration":"12ms","level":"info","message":"HTTP Request","method":"GET","path":"/health","service":"foldertree-api","statusCode":200,"timestamp":"2025-12-25 21:40:50","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","path":"/favicon.ico","service":"foldertree-api","statusCode":404,"timestamp":"2025-12-25 21:40:50","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-25 22:30:36"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-25 22:30:36"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-25 22:30:36"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-25 22:30:36"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-25 22:30:36"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-25 22:30:36"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-25 23:36:59"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-25 23:37:00"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-25 23:37:00"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-25 23:37:00"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-25 23:37:00"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-25 23:37:00"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-25 23:38:56"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-25 23:38:56"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-25 23:38:56"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-25 23:38:56"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-25 23:38:56"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-25 23:38:56"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 00:04:12"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 00:04:12"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 00:04:12"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 00:04:12"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 00:04:12"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 00:04:12"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 00:32:18"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 00:32:18"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 00:32:18"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 00:32:18"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 00:32:18"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 00:32:18"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 01:08:21"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 01:08:21"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 01:08:21"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 01:08:22"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 01:08:22"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 01:08:22"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 01:24:42"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 01:24:42"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 01:24:42"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 01:24:42"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 01:24:42"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 01:24:42"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 13:34:57"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 13:34:57"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 13:34:57"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 13:34:57"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 13:34:57"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 13:34:57"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 14:34:16"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 14:34:16"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 14:34:16"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 14:34:16"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 14:34:16"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 14:34:16"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 14:36:12"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 14:36:12"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 14:36:12"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 14:36:12"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 14:36:12"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 14:36:12"}
+{"level":"info","message":"AI structure generated","outputLength":1481,"promptLength":46,"provider":"ollama","service":"foldertree-api","timestamp":"2025-12-26 15:04:13"}
+{"duration":"14051ms","level":"info","message":"HTTP Request","method":"POST","path":"/ai/generate","service":"foldertree-api","statusCode":200,"timestamp":"2025-12-26 15:04:13","userAgent":"curl/8.16.0"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5001,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 15:26:22"}
+{"level":"info","message":"✅ Backend running on http://localhost:5001","service":"foldertree-api","timestamp":"2025-12-26 15:26:23"}
+{"level":"info","message":"📚 API Docs: http://localhost:5001/api/docs","service":"foldertree-api","timestamp":"2025-12-26 15:26:23"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5001/api/health","service":"foldertree-api","timestamp":"2025-12-26 15:26:23"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 15:26:23"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 15:26:23"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 15:47:03"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 15:47:03"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 15:47:03"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 15:47:03"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 15:47:03"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 15:47:03"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 15:51:45"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 15:51:45"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 15:51:45"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 15:51:45"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 15:51:45"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 15:51:45"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 15:57:38"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 15:57:38"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 15:57:38"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 15:57:38"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 15:57:38"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 15:57:38"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 16:10:56"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 16:10:57"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 16:10:57"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 16:10:57"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 16:10:57"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 16:10:57"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 16:13:28"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 16:13:28"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 16:13:28"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 16:13:28"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 16:13:28"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 16:13:28"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":3001,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 16:14:14"}
+{"level":"info","message":"✅ Backend running on http://localhost:3001","service":"foldertree-api","timestamp":"2025-12-26 16:14:14"}
+{"level":"info","message":"📚 API Docs: http://localhost:3001/api/docs","service":"foldertree-api","timestamp":"2025-12-26 16:14:14"}
+{"level":"info","message":"🏥 Health Check: http://localhost:3001/api/health","service":"foldertree-api","timestamp":"2025-12-26 16:14:14"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 16:14:14"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 16:14:14"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 16:35:16"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 16:35:16"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 16:35:16"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 16:35:16"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 16:35:16"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 16:35:16"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"POST","path":"/graphql","service":"foldertree-api","statusCode":404,"timestamp":"2025-12-26 16:39:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.107.1 Chrome/142.0.7444.175 Electron/39.2.3 Safari/537.36"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 16:42:39"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 16:42:39"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 16:42:39"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 16:42:39"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 16:42:39"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 16:42:39"}
+{"AI_PROVIDER":"ollama","NODE_ENV":"development","PORT":5000,"level":"info","message":"Environment loaded","service":"foldertree-api","timestamp":"2025-12-26 22:56:24"}
+{"level":"info","message":"✅ Backend running on http://localhost:5000","service":"foldertree-api","timestamp":"2025-12-26 22:56:25"}
+{"level":"info","message":"📚 API Docs: http://localhost:5000/api/docs","service":"foldertree-api","timestamp":"2025-12-26 22:56:25"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/api/health","service":"foldertree-api","timestamp":"2025-12-26 22:56:25"}
+{"level":"info","message":"Environment: development","service":"foldertree-api","timestamp":"2025-12-26 22:56:25"}
+{"level":"info","message":"AI Provider: ollama","service":"foldertree-api","timestamp":"2025-12-26 22:56:25"}
