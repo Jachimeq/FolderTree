@@ -339,3 +339,4 @@ ISC License - See [LICENSE](LICENSE) file for details.
 
 Made with Node.js, React, and TypeScript | [Follow us on Twitter](https://twitter.com/foldertree)
 
+# FolderTree
