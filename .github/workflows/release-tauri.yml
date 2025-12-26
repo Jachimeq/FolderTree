@@ -1,0 +1,95 @@
+name: release-tauri
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build backend
+        working-directory: backend
+        run: npm run build
+
+      - name: Build Tauri
+        working-directory: frontend
+        env:
+          TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
+          TAURI_KEY_PASSWORD: ${{ secrets.TAURI_PRIVATE_KEY_PASSWORD }}
+        run: npm run desktop:build
+
+      - name: Collect artifacts
+        shell: powershell
+        run: |
+          New-Item -ItemType Directory -Force -Path dist
+          Copy-Item -Recurse -Force frontend\src-tauri\target\release\bundle\msi\*.msi dist\
+          dir dist
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.msi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate latest.json
+        shell: powershell
+        run: |
+          $tag = "${{ github.ref_name }}"
+          $version = $tag.TrimStart("v")
+          $date = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+
+          $msi = Get-ChildItem dist\*.msi | Select-Object -First 1
+          if (!$msi) { throw "MSI not found" }
+
+          # Tauri produces signature files alongside artifacts sometimes depending on config;
+          # we keep it simple: read signature from .sig if present; otherwise fail to avoid insecure updates.
+          $sigFile = Join-Path $msi.DirectoryName ($msi.BaseName + ".sig")
+          if (!(Test-Path $sigFile)) { throw "Signature file not found: $sigFile" }
+
+          $sig = Get-Content $sigFile -Raw
+          $url = "https://github.com/${{ github.repository }}/releases/download/$tag/$($msi.Name)"
+
+          $json = @{
+            version = $version
+            notes = "Auto update"
+            pub_date = $date
+            platforms = @{
+              "windows-x86_64" = @{
+                url = $url
+                signature = $sig.Trim()
+              }
+            }
+          } | ConvertTo-Json -Depth 10
+
+          $out = "latest.json"
+          $json | Out-File -FilePath $out -Encoding utf8
+          Get-Content $out
+
+      - name: Upload latest.json to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: latest.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
