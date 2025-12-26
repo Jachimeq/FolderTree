@@ -57,7 +57,11 @@ if ([string]::IsNullOrWhiteSpace($msg)) {
     $msg = "Initial commit"
 }
 git commit -m $msg
-Write-Host "Created commit: $msg"
+if ($LASTEXITCODE -eq 0) {
+    Write-Host "Created commit: $msg"
+} else {
+    Write-Host "No changes to commit or commit failed."
+}
 
 # 5.5 Pull remote changes and rebase
 Write-Host "Pulling and rebasing remote changes (if any)..."
